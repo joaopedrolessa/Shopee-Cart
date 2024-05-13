@@ -5,18 +5,18 @@ const myCart = [];
 const myWhishList = []
 
 console.log("Wlcome to the your Shopee Cart!")
- //criar 2 intens
+ //create 2 items
 const item1 = await createItem("hotwheels ferrari", 20.99, 1)
 const item2 = await createItem("hotwheels lamborghini", 39.99, 3)
 
-//add 2 itens no carrinho
+//add 2 items to the cart
 await cartservice.addItem(myCart, item1)
 await cartservice.addItem(myCart, item2)
 
 await cartservice.removeItem(myCart, item2)
 await cartservice.removeItem(myCart, item2)
 
-//demostra os itens no console
+//display items in the console
 await cartservice.displayCart(myCart)
 
 //apagar itens

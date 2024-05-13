@@ -1,6 +1,6 @@
-//casos de uso dos itens
+//use cases of items
 
-//criar item com subtotal certo
+//create item with correct subtotal
 async function createItem(name, price, quantity){
     return{
         name,
