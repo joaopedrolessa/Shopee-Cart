@@ -1,5 +1,5 @@
 {
-  "name": "carrinhodecomprasshopee",
+  "name": "shopeecart",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,6 +8,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "João Pedro Lessa",
   "license": "ISC"
 }
